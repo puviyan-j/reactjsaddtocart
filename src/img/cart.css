@@ -1,0 +1,58 @@
+.carts {
+    width: 600px;
+    margin: auto;
+}
+
+.cartitem {
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+.cartitem img {
+    width: 70px;
+}
+
+.cartitem-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cartItem{
+   width: 300px;
+   
+}
+.qnts{
+    margin-left: 28px;
+    display: flex;
+}
+.qnts button{
+    border: none;
+    background:none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cartQts{
+    display: block;
+    width: 30px;
+    text-align: center;
+}
+.subtotal{
+  display: block;
+  margin: 0 25px;
+  width: 75px;
+}
+.remove{
+    border: none;
+    background: none;
+    align-items: center;
+    display: flex;
+}
+.remove button{
+    border: none;
+    cursor: pointer;
+}
+.total{
+    margin-top: 50px;
+    text-align: end;
+}
